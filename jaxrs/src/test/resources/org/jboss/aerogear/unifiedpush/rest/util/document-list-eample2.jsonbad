@@ -1,0 +1,1353 @@
+[
+  {
+    "documentId": "de3ab02a-bf31-4334-a5e5-724221f83a00",
+    "content": {
+      "alias": "application@3.3.2.cb4.com",
+      "casTimestamp": 1523619002085,
+      "deployId": 6273,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10115,
+      "remark": "",
+      "responseAlias": "application@3.3.2.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "de3ab02a-bf31-4334-a5e5-724221f83a00",
+      "updateDate": 1523619002085,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "4ddf0510-52e5-11e8-a74c-cf843dd3b79d"
+  },
+  {
+    "documentId": "06f31356-ef19-4263-83a0-5eeffcf93935",
+    "content": {
+      "alias": "application@3.3.2.cb4.com",
+      "casTimestamp": 1523618881651,
+      "deployId": 6273,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.2.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "06f31356-ef19-4263-83a0-5eeffcf93935",
+      "updateDate": 1523618881651,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "4ddeb6f0-52e5-11e8-a74c-cf843dd3b79d"
+  },
+  {
+    "documentId": "52314269-cd71-4ce1-8294-5f1dd31feeca",
+    "content": {
+      "alias": "application@3.3.2.cb4.com",
+      "casTimestamp": 1523618933362,
+      "deployId": 6273,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10122,
+      "remark": "not in POG",
+      "responseAlias": "application@3.3.2.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "52314269-cd71-4ce1-8294-5f1dd31feeca",
+      "updateDate": 1523618933362,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "4dde68d0-52e5-11e8-a74c-cf843dd3b79d"
+  },
+  {
+    "documentId": "3e485e42-4533-42d4-a98f-4376bac65d1c",
+    "content": {
+      "alias": "application@3.3.2.cb4.com",
+      "casTimestamp": 1523618887427,
+      "deployId": 6273,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10159,
+      "remark": "",
+      "responseAlias": "application@3.3.2.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "3e485e42-4533-42d4-a98f-4376bac65d1c",
+      "updateDate": 1523618887427,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "4dddf3a0-52e5-11e8-a74c-cf843dd3b79d"
+  },
+  {
+    "documentId": "a75e68b5-a3a9-4615-a2d3-3978bcaa662a",
+    "content": {
+      "alias": "application@3.3.2.cb4.com",
+      "casTimestamp": 1523618946460,
+      "deployId": 6273,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10122,
+      "remark": "I do not use this vendor",
+      "responseAlias": "application@3.3.2.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "a75e68b5-a3a9-4615-a2d3-3978bcaa662a",
+      "updateDate": 1523618946460,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "4ddc9410-52e5-11e8-a74c-cf843dd3b79d"
+  },
+  {
+    "documentId": "9db973ff-988a-40fe-ab10-5cc3dd5aba7d",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6505,
+      "taskId": "9db973ff-988a-40fe-ab10-5cc3dd5aba7d",
+      "reasonId": 10122,
+      "remark": "Reset was rescheduled at the last minute.",
+      "viewed": false,
+      "state": "DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1525794607596
+    },
+    "contentType": "application/json",
+    "snapshot": "7bb6e470-52d7-11e8-832f-b5bb7123cc03"
+  },
+  {
+    "documentId": "7e39cf70-b7ee-4bab-a490-c9ef22b65c52",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6505,
+      "taskId": "7e39cf70-b7ee-4bab-a490-c9ef22b65c52",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1525794571391
+    },
+    "contentType": "application/json",
+    "snapshot": "661e2ce0-52d7-11e8-a74c-cf843dd3b79d"
+  },
+  {
+    "documentId": "202a3af2-a67e-4e21-abcb-6d33da6ec9f9",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6505,
+      "taskId": "202a3af2-a67e-4e21-abcb-6d33da6ec9f9",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1525794563997
+    },
+    "contentType": "application/json",
+    "snapshot": "61980880-52d7-11e8-a339-7bf96613e5ad"
+  },
+  {
+    "documentId": "e5b4729b-1c7f-48e0-95d2-8b428c316d79",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6505,
+      "taskId": "e5b4729b-1c7f-48e0-95d2-8b428c316d79",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1525794546850
+    },
+    "contentType": "application/json",
+    "snapshot": "57571050-52d7-11e8-a339-7bf96613e5ad"
+  },
+  {
+    "documentId": "e5b4729b-1c7f-48e0-95d2-8b428c316d79",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6505,
+      "taskId": "e5b4729b-1c7f-48e0-95d2-8b428c316d79",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1525794539261
+    },
+    "contentType": "application/json",
+    "snapshot": "52f9a9a0-52d7-11e8-a74c-cf843dd3b79d"
+  },
+  {
+    "documentId": "9dd9dbf2-1a32-4a70-b084-06c685450e8d",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6505,
+      "taskId": "9dd9dbf2-1a32-4a70-b084-06c685450e8d",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1525794526824
+    },
+    "contentType": "application/json",
+    "snapshot": "4b5ea420-52d7-11e8-a339-7bf96613e5ad"
+  },
+  {
+    "documentId": "37b38d79-fecd-4cd0-9784-48a23277b990",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6452,
+      "taskId": "37b38d79-fecd-4cd0-9784-48a23277b990",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1525277029770
+    },
+    "contentType": "application/json",
+    "snapshot": "67260680-4e22-11e8-bbec-7baa9f3fb260"
+  },
+  {
+    "documentId": "295f8164-c9ac-40c4-884d-27c0ecb58b09",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6452,
+      "taskId": "295f8164-c9ac-40c4-884d-27c0ecb58b09",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1525277024013
+    },
+    "contentType": "application/json",
+    "snapshot": "63acbe40-4e22-11e8-a339-7bf96613e5ad"
+  },
+  {
+    "documentId": "1d28cd12-c371-40d8-8876-0c45d1930029",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6452,
+      "taskId": "1d28cd12-c371-40d8-8876-0c45d1930029",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1525277015491
+    },
+    "contentType": "application/json",
+    "snapshot": "5e8f14d0-4e22-11e8-a74c-cf843dd3b79d"
+  },
+  {
+    "documentId": "adc4fad1-3427-4142-be00-99f861ed673e",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1522805600835,
+      "deployId": 6222,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10159,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "adc4fad1-3427-4142-be00-99f861ed673e",
+      "updateDate": 1522805600835,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "1ecc8940-4d55-11e8-bbec-7baa9f3fb260"
+  },
+  {
+    "documentId": "6e603444-0199-4a5b-b2c4-fc6d34d575a5",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6396,
+      "taskId": "6e603444-0199-4a5b-b2c4-fc6d34d575a5",
+      "reasonId": 10122,
+      "remark": "Pepsi decided to change my date out a month for my reset.",
+      "viewed": false,
+      "state": "DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1524597530279
+    },
+    "contentType": "application/json",
+    "snapshot": "5209b3c0-47f4-11e8-a74c-cf843dd3b79d"
+  },
+  {
+    "documentId": "ee5fc501-4e90-47eb-8248-149d06637474",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6396,
+      "taskId": "ee5fc501-4e90-47eb-8248-149d06637474",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1524597491681
+    },
+    "contentType": "application/json",
+    "snapshot": "3aed4260-47f4-11e8-832f-b5bb7123cc03"
+  },
+  {
+    "documentId": "36f49b8d-7c5e-4dca-b8d3-cfed718591de",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6396,
+      "taskId": "36f49b8d-7c5e-4dca-b8d3-cfed718591de",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1524597483928
+    },
+    "contentType": "application/json",
+    "snapshot": "36427f02-47f4-11e8-a74c-cf843dd3b79d"
+  },
+  {
+    "documentId": "d30c0590-6004-482c-8bad-707be79c60ac",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6396,
+      "taskId": "d30c0590-6004-482c-8bad-707be79c60ac",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1524597475808
+    },
+    "contentType": "application/json",
+    "snapshot": "3188ee90-47f4-11e8-bb0e-25c8ed0f27c6"
+  },
+  {
+    "documentId": "b727f2bc-5f02-4e20-8d92-acaa317e9ce1",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1522175028156,
+      "deployId": 6168,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10122,
+      "remark": "Specials",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "b727f2bc-5f02-4e20-8d92-acaa317e9ce1",
+      "updateDate": 1522175028156,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "0d899350-47db-11e8-832f-b5bb7123cc03"
+  },
+  {
+    "documentId": "a447ba6c-6246-43ae-b276-885c67b4206b",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1522175058077,
+      "deployId": 6168,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "a447ba6c-6246-43ae-b276-885c67b4206b",
+      "updateDate": 1522175058077,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "0d894530-47db-11e8-832f-b5bb7123cc03"
+  },
+  {
+    "documentId": "fa3de9fa-3ae0-4347-b6f4-c2660dacd24b",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1522175011289,
+      "deployId": 6168,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "fa3de9fa-3ae0-4347-b6f4-c2660dacd24b",
+      "updateDate": 1522175011289,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "0d88f710-47db-11e8-832f-b5bb7123cc03"
+  },
+  {
+    "documentId": "b54827d4-e89d-4503-a182-f361fb185ea2",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1522175043624,
+      "deployId": 6168,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "b54827d4-e89d-4503-a182-f361fb185ea2",
+      "updateDate": 1522175043624,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "0d88a8f0-47db-11e8-832f-b5bb7123cc03"
+  },
+  {
+    "documentId": "ed121518-ed95-43a7-9521-0fb87b375195",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1522175035828,
+      "deployId": 6168,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "ed121518-ed95-43a7-9521-0fb87b375195",
+      "updateDate": 1522175035828,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "0d885ad0-47db-11e8-832f-b5bb7123cc03"
+  },
+  {
+    "documentId": "79fabf7c-380a-47a8-89a6-429c1414b07c",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1522175051932,
+      "deployId": 6168,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "79fabf7c-380a-47a8-89a6-429c1414b07c",
+      "updateDate": 1522175051932,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "0d87be90-47db-11e8-832f-b5bb7123cc03"
+  },
+  {
+    "documentId": "42df4c9f-016d-494f-9ee2-0be123885c3e",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6342,
+      "taskId": "42df4c9f-016d-494f-9ee2-0be123885c3e",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1524168637875
+    },
+    "contentType": "application/json",
+    "snapshot": "ba3d18f0-440d-11e8-8c30-1b7de394f846"
+  },
+  {
+    "documentId": "87aa2d80-821d-4aa5-8613-0d0f4e4809f3",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6342,
+      "taskId": "87aa2d80-821d-4aa5-8613-0d0f4e4809f3",
+      "reasonId": 10159,
+      "remark": "",
+      "viewed": false,
+      "state": "DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1524168632089
+    },
+    "contentType": "application/json",
+    "snapshot": "b6a7bd30-440d-11e8-8c30-1b7de394f846"
+  },
+  {
+    "documentId": "6c49e031-abb6-426d-9e47-7e130906e615",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6342,
+      "taskId": "6c49e031-abb6-426d-9e47-7e130906e615",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1524168626906
+    },
+    "contentType": "application/json",
+    "snapshot": "b38806a0-440d-11e8-8c30-1b7de394f846"
+  },
+  {
+    "documentId": "c97c3378-3e58-4698-a7b8-abd0c018acc9",
+    "content": {
+      "version": "1.12.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6342,
+      "taskId": "c97c3378-3e58-4698-a7b8-abd0c018acc9",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1524168620381
+    },
+    "contentType": "application/json",
+    "snapshot": "afa17da0-440d-11e8-b65b-59f219e83d27"
+  },
+  {
+    "documentId": "fd7ad919-1e3a-4511-b9e5-c0052c125e90",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1521564343650,
+      "deployId": 6113,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "fd7ad919-1e3a-4511-b9e5-c0052c125e90",
+      "updateDate": 1521564343650,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "bf32c8f0-4255-11e8-b716-939717def270"
+  },
+  {
+    "documentId": "25d87352-39d4-4024-a117-31b9e4e1fcc4",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1521564369015,
+      "deployId": 6113,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10122,
+      "remark": "I do not carry this vendor",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "25d87352-39d4-4024-a117-31b9e4e1fcc4",
+      "updateDate": 1521564369015,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "bf32a1e0-4255-11e8-b716-939717def270"
+  },
+  {
+    "documentId": "3f994abe-9a13-4d6e-8579-2e16cae23eac",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1521564375989,
+      "deployId": 6113,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10159,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "3f994abe-9a13-4d6e-8579-2e16cae23eac",
+      "updateDate": 1521564375989,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "bf322cb0-4255-11e8-b716-939717def270"
+  },
+  {
+    "documentId": "31b13374-fe96-4e1a-9e93-84bbe503a510",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1521564334626,
+      "deployId": 6113,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "31b13374-fe96-4e1a-9e93-84bbe503a510",
+      "updateDate": 1521564334626,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "bf31de90-4255-11e8-b716-939717def270"
+  },
+  {
+    "documentId": "de3ab02a-bf31-4334-a5e5-724221f83a00",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6273,
+      "taskId": "de3ab02a-bf31-4334-a5e5-724221f83a00",
+      "reasonId": 10115,
+      "remark": "",
+      "viewed": false,
+      "state": "DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1523619002085
+    },
+    "contentType": "application/json",
+    "snapshot": "01f3ff60-3f0e-11e8-b716-939717def270"
+  },
+  {
+    "documentId": "a75e68b5-a3a9-4615-a2d3-3978bcaa662a",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6273,
+      "taskId": "a75e68b5-a3a9-4615-a2d3-3978bcaa662a",
+      "reasonId": 10122,
+      "remark": "I do not use this vendor",
+      "viewed": false,
+      "state": "DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1523618946460
+    },
+    "contentType": "application/json",
+    "snapshot": "e0b8eae0-3f0d-11e8-b716-939717def270"
+  },
+  {
+    "documentId": "52314269-cd71-4ce1-8294-5f1dd31feeca",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6273,
+      "taskId": "52314269-cd71-4ce1-8294-5f1dd31feeca",
+      "reasonId": 10122,
+      "remark": "not in POG",
+      "viewed": false,
+      "state": "DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1523618933362
+    },
+    "contentType": "application/json",
+    "snapshot": "d902bc40-3f0d-11e8-b716-939717def270"
+  },
+  {
+    "documentId": "3e485e42-4533-42d4-a98f-4376bac65d1c",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6273,
+      "taskId": "3e485e42-4533-42d4-a98f-4376bac65d1c",
+      "reasonId": 10159,
+      "remark": "",
+      "viewed": false,
+      "state": "DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1523618887427
+    },
+    "contentType": "application/json",
+    "snapshot": "bd4858c0-3f0d-11e8-9e17-efd16b9a152e"
+  },
+  {
+    "documentId": "06f31356-ef19-4263-83a0-5eeffcf93935",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6273,
+      "taskId": "06f31356-ef19-4263-83a0-5eeffcf93935",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1523618881651
+    },
+    "contentType": "application/json",
+    "snapshot": "ba3106a0-3f0d-11e8-b65b-59f219e83d27"
+  },
+  {
+    "documentId": "71b0ce05-2adf-4294-b7c5-5e33c8d7b9b6",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1521044619031,
+      "deployId": 6043,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "71b0ce05-2adf-4294-b7c5-5e33c8d7b9b6",
+      "updateDate": 1521044619031,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "f814c5b0-3cdd-11e8-b65b-59f219e83d27"
+  },
+  {
+    "documentId": "0378c440-86a3-4161-af8c-6d308d1cef86",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1521044377284,
+      "deployId": 6043,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10122,
+      "remark": "Item Was removed from the set",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "0378c440-86a3-4161-af8c-6d308d1cef86",
+      "updateDate": 1521044377284,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "f8147790-3cdd-11e8-b65b-59f219e83d27"
+  },
+  {
+    "documentId": "0297ca72-c931-40a9-af26-44eda23eea03",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1521044479210,
+      "deployId": 6043,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10122,
+      "remark": "ZZZ",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "0297ca72-c931-40a9-af26-44eda23eea03",
+      "updateDate": 1521044479210,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "f8142970-3cdd-11e8-b65b-59f219e83d27"
+  },
+  {
+    "documentId": "8bc9f8db-cfe2-40cf-9092-9af9dc5646b0",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1521044451897,
+      "deployId": 6043,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10122,
+      "remark": "ZZZ",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "8bc9f8db-cfe2-40cf-9092-9af9dc5646b0",
+      "updateDate": 1521044451897,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "f8140260-3cdd-11e8-b65b-59f219e83d27"
+  },
+  {
+    "documentId": "8cffee79-f177-4f9e-9364-7a48f604a7f6",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1521044460927,
+      "deployId": 6043,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "8cffee79-f177-4f9e-9364-7a48f604a7f6",
+      "updateDate": 1521044460927,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "f8138d30-3cdd-11e8-b65b-59f219e83d27"
+  },
+  {
+    "documentId": "b9e29008-1d0a-4eea-9cdc-eabacb872513",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1521044431098,
+      "deployId": 6043,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "b9e29008-1d0a-4eea-9cdc-eabacb872513",
+      "updateDate": 1521044431098,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "f8133f10-3cdd-11e8-b65b-59f219e83d27"
+  },
+  {
+    "documentId": "b86c032c-bdf3-407c-bbec-61278b4b821e",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1521044415767,
+      "deployId": 6043,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "b86c032c-bdf3-407c-bbec-61278b4b821e",
+      "updateDate": 1521044415767,
+      "version": "1.11.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "f812f0f0-3cdd-11e8-b65b-59f219e83d27"
+  },
+  {
+    "documentId": "adc4fad1-3427-4142-be00-99f861ed673e",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6222,
+      "taskId": "adc4fad1-3427-4142-be00-99f861ed673e",
+      "reasonId": 10159,
+      "remark": "",
+      "viewed": false,
+      "state": "DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1522805600835
+    },
+    "contentType": "application/json",
+    "snapshot": "296ef0d0-37a8-11e8-b716-939717def270"
+  },
+  {
+    "documentId": "60eed35a-9091-404b-9e29-533775e5004a",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1520614204312,
+      "deployId": 5983,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10122,
+      "remark": "ZZZPOG",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "60eed35a-9091-404b-9e29-533775e5004a",
+      "updateDate": 1520614204312,
+      "version": "1.10.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "79f00330-3764-11e8-b65b-59f219e83d27"
+  },
+  {
+    "documentId": "418bd95b-842a-4e1a-b88b-18ce2db07e0d",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1520614188535,
+      "deployId": 5983,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "418bd95b-842a-4e1a-b88b-18ce2db07e0d",
+      "updateDate": 1520614188535,
+      "version": "1.10.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "79efb510-3764-11e8-b65b-59f219e83d27"
+  },
+  {
+    "documentId": "91d69b62-d221-42ab-9075-8b3cc647a580",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1520614166463,
+      "deployId": 5983,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "91d69b62-d221-42ab-9075-8b3cc647a580",
+      "updateDate": 1520614166463,
+      "version": "1.10.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "79ef8e00-3764-11e8-b65b-59f219e83d27"
+  },
+  {
+    "documentId": "893e862e-fd94-41ea-9a4e-6321e5a67a02",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1520614182151,
+      "deployId": 5983,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "893e862e-fd94-41ea-9a4e-6321e5a67a02",
+      "updateDate": 1520614182151,
+      "version": "1.10.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "79ef18d0-3764-11e8-b65b-59f219e83d27"
+  },
+  {
+    "documentId": "a447ba6c-6246-43ae-b276-885c67b4206b",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6168,
+      "taskId": "a447ba6c-6246-43ae-b276-885c67b4206b",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1522175058077
+    },
+    "contentType": "application/json",
+    "snapshot": "10446200-31ec-11e8-b7bb-9591ee7f14fd"
+  },
+  {
+    "documentId": "79fabf7c-380a-47a8-89a6-429c1414b07c",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6168,
+      "taskId": "79fabf7c-380a-47a8-89a6-429c1414b07c",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1522175051932
+    },
+    "contentType": "application/json",
+    "snapshot": "0c487c40-31ec-11e8-9d56-6359c6b9f58d"
+  },
+  {
+    "documentId": "b54827d4-e89d-4503-a182-f361fb185ea2",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6168,
+      "taskId": "b54827d4-e89d-4503-a182-f361fb185ea2",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1522175043624
+    },
+    "contentType": "application/json",
+    "snapshot": "07547ae0-31ec-11e8-9eae-ebbd192897c1"
+  },
+  {
+    "documentId": "ed121518-ed95-43a7-9521-0fb87b375195",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6168,
+      "taskId": "ed121518-ed95-43a7-9521-0fb87b375195",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1522175035828
+    },
+    "contentType": "application/json",
+    "snapshot": "030014e0-31ec-11e8-b371-95545d14e42e"
+  },
+  {
+    "documentId": "b727f2bc-5f02-4e20-8d92-acaa317e9ce1",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6168,
+      "taskId": "b727f2bc-5f02-4e20-8d92-acaa317e9ce1",
+      "reasonId": 10122,
+      "remark": "Specials",
+      "viewed": false,
+      "state": "DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1522175028156
+    },
+    "contentType": "application/json",
+    "snapshot": "fe705390-31eb-11e8-aa97-f3e8eef2ecda"
+  },
+  {
+    "documentId": "fa3de9fa-3ae0-4347-b6f4-c2660dacd24b",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6168,
+      "taskId": "fa3de9fa-3ae0-4347-b6f4-c2660dacd24b",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1522175011289
+    },
+    "contentType": "application/json",
+    "snapshot": "f414a770-31eb-11e8-aa97-f3e8eef2ecda"
+  },
+  {
+    "documentId": "e5344348-44a8-47bc-b305-bb9774fb00f1",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1520001779115,
+      "deployId": 5923,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10122,
+      "remark": "zzz POG",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "e5344348-44a8-47bc-b305-bb9774fb00f1",
+      "updateDate": 1520001779115,
+      "version": "1.10.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "8b7b2960-31e0-11e8-b371-95545d14e42e"
+  },
+  {
+    "documentId": "701c2fb5-9bea-4bf1-b23e-d92836f65e9b",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1520001798001,
+      "deployId": 5923,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10122,
+      "remark": "ZZZ POG",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "701c2fb5-9bea-4bf1-b23e-d92836f65e9b",
+      "updateDate": 1520001798001,
+      "version": "1.10.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "8b7b0250-31e0-11e8-b371-95545d14e42e"
+  },
+  {
+    "documentId": "da1228f8-1903-4f04-9ddd-3bdc0d29ce3d",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1520001812091,
+      "deployId": 5923,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10122,
+      "remark": "ZZZ POG",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "da1228f8-1903-4f04-9ddd-3bdc0d29ce3d",
+      "updateDate": 1520001812091,
+      "version": "1.10.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "8b7ab430-31e0-11e8-b371-95545d14e42e"
+  },
+  {
+    "documentId": "b753868a-7595-434e-8c9e-065c43578f05",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1520001786006,
+      "deployId": 5923,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "b753868a-7595-434e-8c9e-065c43578f05",
+      "updateDate": 1520001786006,
+      "version": "1.10.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "8b7a3f00-31e0-11e8-b371-95545d14e42e"
+  },
+  {
+    "documentId": "857d84c3-81a6-442a-93b5-d291fa392090",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1519394766488,
+      "deployId": 5858,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "857d84c3-81a6-442a-93b5-d291fa392090",
+      "updateDate": 1519394766488,
+      "version": "1.10.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "215a17d0-2c6d-11e8-b7bb-9591ee7f14fd"
+  },
+  {
+    "documentId": "8a56ccfc-2dbb-4a2e-808c-6b36699548e5",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1519394795801,
+      "deployId": 5858,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "8a56ccfc-2dbb-4a2e-808c-6b36699548e5",
+      "updateDate": 1519394795801,
+      "version": "1.10.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "2159c9b0-2c6d-11e8-b7bb-9591ee7f14fd"
+  },
+  {
+    "documentId": "dc10b69f-ef50-4c8b-888b-9737cd3c2d17",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1519394802393,
+      "deployId": 5858,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "dc10b69f-ef50-4c8b-888b-9737cd3c2d17",
+      "updateDate": 1519394802393,
+      "version": "1.10.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "2159a2a0-2c6d-11e8-b7bb-9591ee7f14fd"
+  },
+  {
+    "documentId": "c1e3f562-5b65-4b12-8afe-289c2651ee3d",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1519394716467,
+      "deployId": 5858,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "c1e3f562-5b65-4b12-8afe-289c2651ee3d",
+      "updateDate": 1519394716467,
+      "version": "1.10.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "21595480-2c6d-11e8-b7bb-9591ee7f14fd"
+  },
+  {
+    "documentId": "671e10bd-c104-43c8-8b04-c92e195e92fb",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1519394786255,
+      "deployId": 5858,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10122,
+      "remark": "We don't use this vendor.",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "DONE",
+      "taskId": "671e10bd-c104-43c8-8b04-c92e195e92fb",
+      "updateDate": 1519394786255,
+      "version": "1.10.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "21590660-2c6d-11e8-b7bb-9591ee7f14fd"
+  },
+  {
+    "documentId": "5c5420a9-bf5e-41c0-a40e-7249c75da847",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1519394744810,
+      "deployId": 5858,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "5c5420a9-bf5e-41c0-a40e-7249c75da847",
+      "updateDate": 1519394744810,
+      "version": "1.10.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "2158df50-2c6d-11e8-b7bb-9591ee7f14fd"
+  },
+  {
+    "documentId": "73cfd4d6-20e4-49d0-a15b-c70aab5391cd",
+    "content": {
+      "alias": "application@3.3.1.cb4.com",
+      "casTimestamp": 1519394754448,
+      "deployId": 5858,
+      "lifeCycle": "EXPIRED",
+      "reasonId": 10137,
+      "remark": "",
+      "responseAlias": "application@3.3.1.cb4.com",
+      "selfReportedTimeSpent": null,
+      "state": "NOT_DONE",
+      "taskId": "73cfd4d6-20e4-49d0-a15b-c70aab5391cd",
+      "updateDate": 1519394754448,
+      "version": "1.10.0",
+      "viewed": false
+    },
+    "contentType": "application/json",
+    "snapshot": "21589130-2c6d-11e8-b7bb-9591ee7f14fd"
+  },
+  {
+    "documentId": "3f994abe-9a13-4d6e-8579-2e16cae23eac",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6113,
+      "taskId": "3f994abe-9a13-4d6e-8579-2e16cae23eac",
+      "reasonId": 10159,
+      "remark": "",
+      "viewed": false,
+      "state": "DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1521564375989
+    },
+    "contentType": "application/json",
+    "snapshot": "3552b1c0-2c5e-11e8-b371-95545d14e42e"
+  },
+  {
+    "documentId": "25d87352-39d4-4024-a117-31b9e4e1fcc4",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6113,
+      "taskId": "25d87352-39d4-4024-a117-31b9e4e1fcc4",
+      "reasonId": 10122,
+      "remark": "I do not carry this vendor",
+      "viewed": false,
+      "state": "DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1521564369015
+    },
+    "contentType": "application/json",
+    "snapshot": "30eaead0-2c5e-11e8-b7bb-9591ee7f14fd"
+  },
+  {
+    "documentId": "fd7ad919-1e3a-4511-b9e5-c0052c125e90",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6113,
+      "taskId": "fd7ad919-1e3a-4511-b9e5-c0052c125e90",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1521564343650
+    },
+    "contentType": "application/json",
+    "snapshot": "221d65a0-2c5e-11e8-9d56-6359c6b9f58d"
+  },
+  {
+    "documentId": "31b13374-fe96-4e1a-9e93-84bbe503a510",
+    "content": {
+      "version": "1.11.0",
+      "alias": "store02@wescoinc.com",
+      "responseAlias": "store02@wescoinc.com",
+      "deployId": 6113,
+      "taskId": "31b13374-fe96-4e1a-9e93-84bbe503a510",
+      "reasonId": 10137,
+      "remark": "",
+      "viewed": false,
+      "state": "NOT_DONE",
+      "lifeCycle": "ACTIVE",
+      "updateDate": 1521564334626
+    },
+    "contentType": "application/json",

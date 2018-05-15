@@ -2,6 +2,7 @@ package org.jboss.aerogear.unifiedpush.rest.documents;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
 import javax.inject.Inject;
@@ -36,6 +37,7 @@ import org.jboss.aerogear.unifiedpush.cassandra.dao.model.parser.JsonDocumentCon
 import org.jboss.aerogear.unifiedpush.rest.AbstractEndpoint;
 import org.jboss.aerogear.unifiedpush.rest.authentication.AuthenticationHelper;
 import org.jboss.aerogear.unifiedpush.rest.util.ClientAuthHelper;
+import org.jboss.aerogear.unifiedpush.rest.util.CommonUtils;
 import org.jboss.aerogear.unifiedpush.service.AliasService;
 import org.jboss.aerogear.unifiedpush.service.DocumentService;
 import org.slf4j.Logger;
@@ -250,6 +252,16 @@ public class DatabaseEndpoint extends AbstractEndpoint {
 			@PathParam("database") String database, //
 			@Context HttpServletRequest request) { //
 
+		// First validate JSON content to all documents
+		Optional<JsonDocumentContent> result =
+				documents.stream().filter(document -> document.getContentType().equals(JsonDocumentContent.DEFAULT_CONTENT_TYPE)
+						&& !CommonUtils.isValidJSON(document.getContent())).findFirst();
+
+		if (result.isPresent()) {
+			logger.warn(String.format("Unable to validate JSON syntax %s", result.get().getContent()));
+			return appendAllowOriginHeader(Response.status(Status.BAD_REQUEST), request);
+		}
+
 		documents.forEach(document -> {
 			saveForApplication(document.getContent(), database, null, document.getDocumentId(), request);
 		});
@@ -430,6 +442,16 @@ public class DatabaseEndpoint extends AbstractEndpoint {
 			@PathParam("alias") String alias, //
 			@Context HttpServletRequest request) { //
 
+		// First validate JSON content to all documents
+		Optional<JsonDocumentContent> result =
+				documents.stream().filter(document -> document.getContentType().equals(JsonDocumentContent.DEFAULT_CONTENT_TYPE)
+						&& !CommonUtils.isValidJSON(document.getContent())).findFirst();
+
+		if (result.isPresent()) {
+			logger.warn(String.format("Unable to validate JSON syntax %s", result.get().getContent()));
+			return appendAllowOriginHeader(Response.status(Status.BAD_REQUEST), request);
+		}
+
 		documents.forEach(document -> {
 			saveForAlias(document.getContent(), database, alias, null, document.getDocumentId(), request);
 		});
@@ -504,7 +526,8 @@ public class DatabaseEndpoint extends AbstractEndpoint {
 
 		if (aliasObj == null) {
 			String deviceToken = ClientAuthHelper.getDeviceToken(request);
-			logger.warn("Alias is missing. storing by token-id. appId={}, token={}, alias={}", pushApplicationId, deviceToken, alias);
+			logger.warn("Alias is missing. storing by token-id. appId={}, token={}, alias={}", pushApplicationId,
+					deviceToken, alias);
 			aliasObj = getAliasByToken(pushApplicationId, deviceToken);
 		}
 
@@ -782,7 +805,8 @@ public class DatabaseEndpoint extends AbstractEndpoint {
 			// Alias scope document, but alias was not found.
 			if (aliasObj == null) {
 				String deviceToken = ClientAuthHelper.getDeviceToken(request);
-				logger.warn("Alias is missing querying by token-id. appId={}, token={}, alias={}", pushApplicationId, deviceToken, alias);
+				logger.warn("Alias is missing querying by token-id. appId={}, token={}, alias={}", pushApplicationId,
+						deviceToken, alias);
 				aliasObj = getAliasByToken(pushApplicationId, deviceToken);
 			}
 		} else {

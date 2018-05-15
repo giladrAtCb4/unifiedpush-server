@@ -22,6 +22,7 @@ release.properties
 .project
 .settings/
 .metadata
+.recommenders
 
 .DS_Store
 *.checkstyle

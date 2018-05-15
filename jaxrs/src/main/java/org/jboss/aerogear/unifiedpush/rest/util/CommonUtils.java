@@ -16,7 +16,18 @@
  */
 package org.jboss.aerogear.unifiedpush.rest.util;
 
+import java.io.IOException;
+
+import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 public class CommonUtils {
+	private static final Logger logger = LoggerFactory.getLogger(CommonUtils.class);
 
     private CommonUtils() {
         // no-op
@@ -32,4 +43,21 @@ public class CommonUtils {
     public static Boolean isAscendingOrder(String sorting) {
         return "desc".equalsIgnoreCase(sorting) ? Boolean.FALSE : Boolean.TRUE;
     }
+
+    public static boolean isValidJSON(final String json) {
+    	   boolean valid = false;
+    	   try {
+    	      final JsonParser parser = new ObjectMapper().getFactory()
+    	            .createParser(StringUtils.removeEnd(StringUtils.removeStart(json, "\""), "\""));
+    	      while (parser.nextToken() != null) {
+    	      }
+    	      valid = true;
+    	   } catch (JsonParseException jpe) {
+    		   logger.trace("JSON String is NOT valid", jpe);
+    	   } catch (IOException ioe) {
+    		   logger.trace("JSON String is NOT valid", ioe);
+    	   }
+
+    	   return valid;
+    	}
 }

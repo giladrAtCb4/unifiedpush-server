@@ -53,7 +53,7 @@ public class DatabaseEndpointTest extends RestEndpointTest {
 
 			// Store document for alias @POST /{database}/alias/{alias}
 			response = saveDocument(client, getRestFullPath(), "STATUS", newInstallation.getDeviceToken(),
-					newInstallation.getAlias(), "1", newInstallation);
+					newInstallation.getAlias(), "1", 204, newInstallation);
 
 			// Validate new snapshot id exists.
 			String snapshotId1 = response.getHeaderString(DatabaseEndpoint.X_HEADER_SNAPSHOT_ID);
@@ -65,7 +65,7 @@ public class DatabaseEndpointTest extends RestEndpointTest {
 			newInstallation.setOperatingSystem("XXX");
 			// Store document for alias @PUT /{database}/alias/{alias}/{UUID}
 			response = saveDocument(client, getRestFullPath(), "STATUS", newInstallation.getDeviceToken(),
-					newInstallation.getAlias(), "1", snapshotId1, newInstallation);
+					newInstallation.getAlias(), "1", snapshotId1, 204, newInstallation);
 
 			// Validate new snapshot id exists.
 			String snapshotId2 = response.getHeaderString(DatabaseEndpoint.X_HEADER_SNAPSHOT_ID);
@@ -76,13 +76,13 @@ public class DatabaseEndpointTest extends RestEndpointTest {
 
 			// Store additional document
 			response = saveDocument(client, getRestFullPath(), "STATUS", newInstallation.getDeviceToken(),
-					newInstallation.getAlias(), "2", newInstallation);
+					newInstallation.getAlias(), "2", 204, newInstallation);
 
 			response.close();
 
 			// get documents @GET /{database}/alias/{alias}
-			target = client.target(getRestFullPath() + "/database/STATUS/alias/"
-					+ newInstallation.getAlias().toLowerCase());
+			target = client
+					.target(getRestFullPath() + "/database/STATUS/alias/" + newInstallation.getAlias().toLowerCase());
 
 			// Additional Accept header to also test MediaType.APPLICATION_JSON
 			// content
@@ -107,14 +107,14 @@ public class DatabaseEndpointTest extends RestEndpointTest {
 	}
 
 	public static Response saveDocument(ResteasyClient client, String deploymentUrl, String databse, String deviceToken,
-			String alias, String id, Object... jsonEntity) {
-		return saveDocument(client, deploymentUrl, databse, deviceToken, alias, id, null, jsonEntity);
+			String alias, String id, int responseCode, Object... jsonEntity) {
+		return saveDocument(client, deploymentUrl, databse, deviceToken, alias, id, null, responseCode, jsonEntity);
 
 	}
 
 	// Store document for alias @POST /{database}/alias/{alias}
 	public static Response saveDocument(ResteasyClient client, String deploymentUrl, String databse, String deviceToken,
-			String alias, String id, String snapshot, Object... jsonEntity) {
+			String alias, String id, String snapshot, int responseCode, Object... jsonEntity) {
 
 		StringBuilder sBuilder = new StringBuilder(deploymentUrl.toString() + "/database/" + databse);
 		if (StringUtils.isNoneEmpty(alias)) {
@@ -143,7 +143,7 @@ public class DatabaseEndpointTest extends RestEndpointTest {
 			response = builder.post(Entity.entity(getEntity(jsonEntity), getContentType(jsonEntity)));
 		}
 
-		assertEquals(204, response.getStatus());
+		assertEquals(responseCode, response.getStatus());
 
 		return response;
 	}
@@ -193,14 +193,14 @@ public class DatabaseEndpointTest extends RestEndpointTest {
 
 			// Store document for alias @POST /databse/{database}
 			response = saveDocument(client, getRestFullPath(), "DEVICES", newInstallation.getDeviceToken(), null, null,
-					new DocumentInstallationWrapper(newInstallation), new DocumentInstallationWrapper(newInstallation),
-					new DocumentInstallationWrapper(newInstallation));
+					400, new DocumentInstallationWrapper(newInstallation), new DocumentInstallationWrapper(newInstallation),
+					new DocumentInstallationWrapper(newInstallation), new DocumentBadContentWrapper("{Broken JSON"));
 
 			response.close();
 
 			// Store document for alias @POST /databse/{database}/alias/{alias}
 			response = saveDocument(client, getRestFullPath(), "DEVICES", newInstallation.getDeviceToken(),
-					newInstallation.getAlias(), null, new DocumentInstallationWrapper(newInstallation),
+					newInstallation.getAlias(), null, 204, new DocumentInstallationWrapper(newInstallation),
 					new DocumentInstallationWrapper(newInstallation), new DocumentInstallationWrapper(newInstallation));
 
 		} catch (Throwable e) {

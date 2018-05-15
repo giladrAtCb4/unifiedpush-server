@@ -23,11 +23,11 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class JsonDocumentContent extends DocumentContent {
-	private static final String CONTENT_TYPE = "application/json";
+	public static final String DEFAULT_CONTENT_TYPE = "application/json";
 
 	public JsonDocumentContent() {
 		super();
-		super.setContentType(CONTENT_TYPE);
+		super.setContentType(DEFAULT_CONTENT_TYPE);
 	}
 
 	public JsonDocumentContent(DocumentKey key, String content, String documentId) {
@@ -52,8 +52,8 @@ public class JsonDocumentContent extends DocumentContent {
 
 	@Override
 	public void setContentType(String contentType) {
-		if (!CONTENT_TYPE.equals(contentType)) {
-			throw new UnsupportedContentTypeException(String.format("Only %s type is permitted.", CONTENT_TYPE));
+		if (!DEFAULT_CONTENT_TYPE.equals(contentType)) {
+			throw new UnsupportedContentTypeException(String.format("Only %s type is permitted.", DEFAULT_CONTENT_TYPE));
 		}
 		super.setContentType(contentType);
 	}
