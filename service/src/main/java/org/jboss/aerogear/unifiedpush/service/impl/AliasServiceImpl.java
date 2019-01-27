@@ -104,10 +104,10 @@ public class AliasServiceImpl implements AliasService {
 	}
 
 	private List<UserKey> remove(UUID pushApplicationId, String alias, boolean destructive) {
-		if (destructive) {
-			// Remove user from keyCloak
-			keycloakService.delete(alias);
+		// Remove user from keyCloak
+		keycloakService.delete(alias);
 
+		if (destructive) {
 			documentService.delete(pushApplicationId, find(pushApplicationId.toString(), alias));
 		}
 
