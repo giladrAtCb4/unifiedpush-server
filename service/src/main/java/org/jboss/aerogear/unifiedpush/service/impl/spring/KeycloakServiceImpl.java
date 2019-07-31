@@ -7,6 +7,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import javax.annotation.PostConstruct;
 
@@ -250,8 +251,11 @@ public class KeycloakServiceImpl implements IKeycloakService {
 
 	private UserRepresentation getUser(String username, String realmName) {
 		List<UserRepresentation> users = getRealm(realmName).users().search(username, 0, 1);
-		if (users != null && users.size() > 0) {
-			return users.get(0);
+		if(users != null) {
+			List<UserRepresentation> filtered = users.stream().filter(user -> username.equals(user.getUsername())).collect(Collectors.toList());
+			if (!filtered.isEmpty()) {
+				return filtered.get(0);
+			}
 		}
 
 		return null;
